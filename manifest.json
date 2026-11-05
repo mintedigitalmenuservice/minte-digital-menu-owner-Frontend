@@ -1,0 +1,35 @@
+{
+    "name": "Minte Restaurant Digital Menu Manager",
+    "short_name": "Minte Restaurant Digital Menu Manager",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Minte Restaurant Digital Menu Manager is a web application that allows restaurant owners to manage their digital menus efficiently. With this tool, you can easily update menu items, image, name, prices, and descriptions, ensuring that your customers always have access to the latest offerings. The application is designed to be user-friendly and accessible from any device, making it a convenient solution for restaurant management.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
