@@ -1,0 +1,792 @@
+{
+  "language_menu": {
+    "first_language": {
+      "starts": {
+        "name": "English",
+        "start_describ": "You can see us service by sending these commands",
+        "start_menu": "🧾 Menu",
+        "start_contact": "🤝 Contact for more information",
+        "start_about": "ℹ️ About us information"
+      },
+      "host_dic": "💁‍♀️ Can I take your order?",
+      "host_food": "🍽 What do want eat?",
+      "food": {
+        "product": {
+          "types": "🥙 Food",
+          "pizza": {
+            "name": "Pizza",
+            "image": "images/food_pizza_first_language_",
+            "description": "Sweet Pizza healthy",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 5.0,
+            "visible": true
+          },
+          "burger": {
+            "name": "Minte Burger",
+            "image": "images/food_burger.jpg",
+            "description": "Juicy grilled burger with fresh ingredients",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 10.0,
+            "visible": true
+          },
+          "pasta": {
+            "name": "Pasta",
+            "image": "images/pasta.jpeg",
+            "description": "Creamy pasta with rich flavor",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 10,
+            "visible": true
+          },
+          "fries": {
+            "name": "French Fries",
+            "image": "images/french_fries.jpeg",
+            "description": "Crispy golden fries, perfectly salted",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 1,
+            "visible": true
+          },
+          "chicken": {
+            "name": "Fried Chicken",
+            "image": "images/fried_chicken.jpeg",
+            "description": "Crispy fried chicken, tender inside",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 15,
+            "visible": true
+          },
+          "shawarma": {
+            "name": "Shawarma",
+            "image": "images/shawarma.jpeg",
+            "description": "Delicious wrap with meat and sauce",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 5,
+            "visible": true
+          },
+          "sandwich": {
+            "name": "Sandwich",
+            "image": "images/sandwich.jpg",
+            "description": "Fresh sandwich with vegetables and meat",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 1,
+            "visible": true
+          },
+          "salad": {
+            "name": "Salad",
+            "image": "images/salad.jpg",
+            "description": "Healthy fresh vegetable salad",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 4,
+            "visible": true
+          },
+          "steak": {
+            "name": "Steak",
+            "image": "images/steak.jpeg",
+            "description": "Minte Owner bot test Steak",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 3,
+            "visible": true
+          },
+          "taco": {
+            "name": "Taco",
+            "image": "images/taco.jpeg",
+            "description": "Crunchy taco filled with tasty meat",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 4,
+            "visible": true
+          }
+        }
+      },
+      "host_drink": "What do want drink?",
+      "drink": {
+        "product": {
+          "types": "Drink",
+          "cola": {
+            "name": "Cola",
+            "image": "images/coca.jpeg",
+            "description": "Cold and refreshing cola drink",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 3.0,
+            "visible": true
+          },
+          "orange_juice": {
+            "name": "Orange Juice",
+            "image": "images/Orange_Juice.jpg",
+            "description": "Freshly squeezed orange juice",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 2,
+            "visible": true
+          },
+          "water": {
+            "name": "Water",
+            "image": "images/water.jpg",
+            "description": "Pure and refreshing bottled water",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 1,
+            "visible": true
+          },
+          "coffee": {
+            "name": "Coffee",
+            "image": "images/coffee.jpeg",
+            "description": "Hot coffee to boost your energy",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 1,
+            "visible": true
+          },
+          "tea": {
+            "name": "Tea",
+            "image": "images/tea.jpeg",
+            "description": "Warm and relaxing tea",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 1,
+            "visible": true
+          },
+          "milkshake": {
+            "name": "Milkshake",
+            "image": "images/milkshake.jpg",
+            "description": "Creamy and sweet milkshake",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 3,
+            "visible": true
+          },
+          "smoothie": {
+            "name": "Smoothie",
+            "image": "images/smoothie.jpeg",
+            "description": "Fresh fruit smoothie, healthy and tasty",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 3,
+            "visible": true
+          },
+          "lemonade": {
+            "name": "Lemonade",
+            "image": "images/lemonade.jpeg",
+            "description": "Cool and refreshing lemonade",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 2,
+            "visible": true
+          },
+          "energy_drink": {
+            "name": "Energy Drink",
+            "image": "images/energy_drink.jpeg",
+            "description": "Boost your energy instantly",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 3,
+            "visible": true
+          },
+          "iced_tea": {
+            "name": "Iced Tea",
+            "image": "images/iced_tea.jpg",
+            "description": "Chilled tea with a refreshing taste",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 1,
+            "visible": true
+          }
+        }
+      },
+      "room": {
+        "room_list": {
+          "types": "Room",
+          "room_1 ": {
+            "name": "Single Room",
+            "image": "hotel_image/single_1.jpg",
+            "description": "Comfortable room for one guest with single bed, Wi-Fi, TV, and bathroom",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 20,
+            "visible": true
+          },
+          "room_2": {
+            "name": "Double Room",
+            "image": "hotel_image/double_1.jpg",
+            "description": "Spacious room with one double bed for couples or two guests",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 30,
+            "visible": true
+          },
+          "room_3": {
+            "name": "Twin Room",
+            "image": "hotel_image/single_6.jpeg",
+            "description": "Room with two separate single beds for friends or coworkers",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 25,
+            "visible": true
+          },
+          "room_4": {
+            "name": "Family Room",
+            "image": "hotel_image/single_10.jpeg",
+            "description": "Large room designed for families with multiple beds and extra space",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 50,
+            "visible": true
+          },
+          "room_5": {
+            "name": "Deluxe Room",
+            "image": "hotel_image/single_2.jpeg",
+            "description": "Modern luxury room with premium furniture and city view",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 55,
+            "visible": true
+          },
+          "room_6": {
+            "name": "Suite Room",
+            "image": "hotel_image/single_3.jpg",
+            "description": "Elegant suite with bedroom, living area, and luxury bathroom",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 70,
+            "visible": true
+          },
+          "room_7": {
+            "name": "Executive Room",
+            "image": "hotel_image/single_4.jpeg",
+            "description": "Business-style room with workspace, fast Wi-Fi, and premium comfort",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 32,
+            "visible": true
+          },
+          "room_8": {
+            "name": "Honeymoon Room",
+            "image": "hotel_image/single_14.jpg",
+            "description": "Romantic room setup for couples with special decorations",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 35,
+            "visible": true
+          },
+          "room_9": {
+            "name": "Standard Room",
+            "image": "hotel_image/single_13.jpeg",
+            "description": "Clean and simple room with essential facilities for a comfortable stay",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 43,
+            "visible": true
+          },
+          "room_10": {
+            "name": "Presidential Suite",
+            "image": "hotel_image/single_7.jpeg",
+            "description": "Top luxury suite with multiple rooms, lounge area, and premium service",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 120,
+            "visible": true
+          }
+        }
+      },
+      "vip_room": {
+        "room_list": {
+          "types": "VIP Room",
+          "vip_room_1 ": {
+            "name": "Royal VIP Room",
+            "image": "hotel_image/single_13.jpeg",
+            "description": "Luxury room with king-size bed, private lounge, and premium service",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 125.0,
+            "visible": true
+          },
+          "vip_room_2": {
+            "name": "Executive VIP Room",
+            "image": "hotel_image/single_11.jpeg",
+            "description": "Modern VIP room designed for business guests with office workspace and fast Wi-Fi",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 100,
+            "visible": true
+          },
+          "vip_room_3": {
+            "name": "Presidential VIP Suite",
+            "image": "hotel_image/single_10.jpeg",
+            "description": "Premium suite with luxury bedroom, living room, dining area, and city view",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 125,
+            "visible": true
+          },
+          "vip_room_4": {
+            "name": "Honeymoon VIP Room",
+            "image": "hotel_image/single_8.jpeg",
+            "description": "Romantic luxury room with special decorations, soft lighting, and jacuzzi",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 90,
+            "visible": true
+          },
+          "vip_room_5": {
+            "name": "Panorama VIP Room",
+            "image": "hotel_image/single_6.jpeg",
+            "description": "Elegant room with large windows and beautiful panoramic city or mountain view",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 95,
+            "visible": true
+          },
+          "vip_room_6": {
+            "name": "Golden VIP Room",
+            "image": "hotel_image/single_5.jpg",
+            "description": "Stylish gold-themed luxury room with premium furniture and entertainment system",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 85,
+            "visible": true
+          },
+          "vip_room_7": {
+            "name": "Diamond VIP Suite",
+            "image": "hotel_image/single_3.jpg",
+            "description": "High-end suite with exclusive services, minibar, and private sitting area",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 140,
+            "visible": true
+          },
+          "vip_room_8": {
+            "name": "Classic VIP Room",
+            "image": "hotel_image/single_2.jpeg",
+            "description": "Comfortable luxury room with classic interior design and relaxing atmosphere",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 60,
+            "visible": true
+          },
+          "vip_room_9": {
+            "name": "Private Lounge VIP Room",
+            "image": "hotel_image/single_1.jpg",
+            "description": "VIP room with private guest lounge, smart TV, and premium hospitality service",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 75,
+            "visible": true
+          },
+          "vip_room_10": {
+            "name": "Imperial VIP Suite",
+            "image": "hotel_image/single_le.jpeg",
+            "description": "Ultra-luxury suite with multiple rooms, private dining area, and executive servicee",
+            "lang_price": "Price",
+            "currenc": "$",
+            "price": 250,
+            "visible": true
+          }
+        }
+      },
+      "contact": "Contact Us\nYou can reach us through any of the following conntacts:\n\n📍 Location Dilla, Ethiopia\n📱 Phone 0951388278\n💬 Telegram https://t.me/Minte_contact\n📧 Email: mintedigitalservice@gmail.com\n🕒 Mon-Sat: 8am-10pm | Sun: 12am-8pm",
+      "about": "Welcome to Minte Restaurant!\n\nWe're a family-owned restaurant serving fresh, homemade meals made from locally sourced ingredients. \n\nOur story began in 2018 when Maria, our head chef, turned her passion for traditional recipes into a cozy spot where neighbors become friends.\n\nWhat makes us special:\n✅ Daily fresh ingredients from local farms\n✅ Recipes passed down for 3 generations\n✅ Warm, friendly service (like visiting family)\n✅ Homemade desserts baked every morning\n\nWhether you're here for a quick coffee, business lunch, or romantic dinner – we've got a table waiting for you.\n\nCome taste the difference of homemade.\n📍 Location: Dilla, Ethiopia\n📞 (0951388278)\n🕒 Mon-Sat: 8am-10pm | Sun: 12am-8pm"
+    },
+    "second_language": {
+      "starts": {
+        "name": "አማርኛ",
+        "start_describ": "እነዚህን ትዕዛዞች በመላክ አገርግሎታችንን ማየት ይችላሉ",
+        "start_menu": "አገልግሎት ዝርዝር",
+        "start_contact": "📞 ለበለጠ መረጃ",
+        "start_about": "ℹ️ ስለ እኛ"
+      },
+      "host_dic": "ምን ልታዘዝ?",
+      "host_food": "ምን መብላት ይፈልጋሉ?",
+      "food": {
+        "product": {
+          "types": "ምግብ",
+          "pizza": {
+            "name": "ፒዛ ",
+            "image": "images/pizza.jpeg",
+            "description": "ትኩስና በቺዝ የተሞላ ፒዛ",
+            "lang_price": "ዋጋ",
+            "price": 700,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "burger": {
+            "name": "በርገር ",
+            "image": "images/burger.jpeg",
+            "description": "ጥሩ ተደርጎ የተጠበሰ በርገር ከአትክልት ጋር",
+            "lang_price": "ዋጋ",
+            "price": 600,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "pasta": {
+            "name": "ፓስታ ",
+            "image": "images/pasta.jpeg",
+            "description": "ጣፋጭና ለስላሳ ፓስታ",
+            "lang_price": "ዋጋ",
+            "price": 700,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "fries": {
+            "name": "የተጠበሰ ድንች ",
+            "image": "images/french_fries.jpeg",
+            "description": "ጣፋጭ ጨው የተመጠነለት የተጠበሰ ድንች",
+            "lang_price": "ዋጋ",
+            "price": 100,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "chicken": {
+            "name": "የተጠበሰ ዶሮ ",
+            "image": "images/fried_chicken.jpeg",
+            "description": "በጣም ጣፋጭና ለስላሳ የዶሮ ጥብስ",
+            "lang_price": "ዋጋ",
+            "price": 1000,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "shawarma": {
+            "name": "ሻውርማ ",
+            "image": "images/shawarma.jpeg",
+            "description": "በዳቦ የቀረበ ስጋና ሶስ",
+            "lang_price": "ዋጋ",
+            "price": 500,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "sandwich": {
+            "name": "ሳንድዊች ",
+            "image": "images/sandwich.jpg",
+            "description": "ትኩስ ሳንድዊች ከአትክልትና ስጋ ጋር",
+            "lang_price": "ዋጋ",
+            "price": 100,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "salad": {
+            "name": "ሰላጣ ",
+            "image": "images/salad.jpg",
+            "description": "ጤናማና ትኩስ የአትክልት ሰላጣ",
+            "lang_price": "ዋጋ",
+            "price": 400,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "steak": {
+            "name": "ስቴክ ",
+            "image": "images/steak.jpeg",
+            "description": "ጥሩ ተደርጎ የተጠበሰ የስጋ ስቴክ",
+            "lang_price": "ዋጋ",
+            "price": 350,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "taco": {
+            "name": "ታኮ ",
+            "image": "images/taco.jpeg",
+            "description": "በጣም ጣፋጭ በስጋ የተሞላ ታኮ",
+            "lang_price": "ዋጋ",
+            "price": 300,
+            "currenc": "ብር",
+            "visible": true
+          }
+        }
+      },
+      "host_drink": "ምን መጠጣት ይፈልጋሉ?",
+      "drink": {
+        "product": {
+          "types": "መጠጥ",
+          "cola": {
+            "name": "ኮላ ",
+            "image": "images/coca.jpeg",
+            "description": "ቀዝቃዛና የሚያድስ የኮላ መጠጥ",
+            "lang_price": "ዋጋ",
+            "price": 150,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "orange_juice": {
+            "name": "የብርቱካን ጭማቂ ",
+            "image": "images/Orange_Juice.jpg",
+            "description": "ቀዝቃዛ የብርቱካን ጭማቂ",
+            "lang_price": "ዋጋ",
+            "price": 200,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "water": {
+            "name": "ውሃ ",
+            "image": "images/water.jpg",
+            "description": "ንጹህ የታሸገ ውሃ",
+            "lang_price": "ዋጋ",
+            "price": 100,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "coffee": {
+            "name": "ቡና ",
+            "image": "images/coffee.jpeg",
+            "description": "ትኩስና ንቃት የሚሰጥ ቡና",
+            "lang_price": "ዋጋ",
+            "price": 70,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "tea": {
+            "name": "ሻይ ",
+            "image": "images/tea.jpeg",
+            "description": "ትኩስና የሚያዝናና ሻይ",
+            "lang_price": "ዋጋ",
+            "price": 40,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "milkshake": {
+            "name": "ሚልክሼክ ",
+            "image": "images/milkshake.jpg",
+            "description": "ለስላሳና ጣፋጭ ሚልክሼክ",
+            "lang_price": "ዋጋ",
+            "price": 300,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "smoothie": {
+            "name": "ስሙዝ ",
+            "image": "images/smoothie.jpeg",
+            "description": "ከፍራፍሬ የተሰራ ጤናማና ጣፋጭ የኢንጆሪ መጠጥ",
+            "lang_price": "ዋጋ",
+            "price": 250,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "lemonade": {
+            "name": "ሎሚናት ",
+            "image": "images/lemonade.jpeg",
+            "description": "ቀዝቃዛና የሚያድስ የሎሚ መጠጥ",
+            "lang_price": "ዋጋ",
+            "price": 150,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "energy_drink": {
+            "name": "የሃይል ሰጪ መጠጥ",
+            "image": "images/energy_drink.jpeg",
+            "description": "ወዲያውኑ ጉልበት የሚሰጥ መጠጥ",
+            "lang_price": "ዋጋ",
+            "price": 250.0,
+            "currenc": "ብር",
+            "visible": true
+          },
+          "iced_tea": {
+            "name": "አይስ ቲ ",
+            "image": "images/iced_tea.jpg",
+            "description": "ቀዝቃዛና ለየት ያለ ጣዕም ያለው ሻይ",
+            "lang_price": "ዋጋ",
+            "price": 50,
+            "currenc": "ብር",
+            "visible": true
+          }
+        }
+      },
+      "room": {
+        "room_list": {
+          "types": "Room",
+          "room_1 ": {
+            "name": "ባለ አንድ ክፍል",
+            "image": "hotel_image/single_1.jpg",
+            "description": "ለአንድ እንግዳ የተዘጋጀ ምቹ ክፍል፣ ባለ አንድ አልጋ፣ Wi-Fi፣ ቲቪ እና መታጠቢያ ቤት ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 1500,
+            "visible": true
+          },
+          "room_2": {
+            "name": "ባለ ሁለት ክፍል",
+            "image": "hotel_image/double_1.jpg",
+            "description": "ለባልና ሚስት ወይም ለሁለት እንግዶች የተስፋፋ ክፍል፣ አንድ ትልቅ አልጋ ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 2500,
+            "visible": true
+          },
+          "room_3": {
+            "name": "መንታ ክፍል",
+            "image": "hotel_image/single_6.jpeg",
+            "description": "ለጓደኞች ወይም ለስራ ባልደረቦች የሚሆን፣ ሁለት የተለያዩ ነጠላ አልጋዎች ያሉት ክፍል",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 2700,
+            "visible": true
+          },
+          "room_4": {
+            "name": "የቤተሰብ ክፍል",
+            "image": "hotel_image/single_10.jpeg",
+            "description": "ለቤተሰቦች የተዘጋጀ ትልቅ ክፍል፣ ብዙ አልጋዎችና ሰፊ ቦታ ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 4500,
+            "visible": true
+          },
+          "room_5": {
+            "name": "ዴሉክስ ክፍል",
+            "image": "hotel_image/single_2.jpeg",
+            "description": "ዘመናዊ የቅንጦት ክፍል፣ ፕሪሚየም ዕቃዎችና የከተማ እይታ ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 5500,
+            "visible": true
+          },
+          "room_6": {
+            "name": "ሱዊት ክፍል",
+            "image": "hotel_image/single_3.jpg",
+            "description": "የተዋበ ክፍል፣ መኝታ ክፍል፣ መቀመጫ ቦታ እና የቅንጦት መታጠቢያ ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 8000,
+            "visible": true
+          },
+          "room_7": {
+            "name": "ኤግዚኪዩቲቭ ክፍል",
+            "image": "hotel_image/single_4.jpeg",
+            "description": "ለቢዝነስ ተስማሚ ክፍል፣ የስራ ቦታ፣ ፈጣን Wi-Fi እና ፕሪሚየም ምቾት ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 6500,
+            "visible": true
+          },
+          "room_8": {
+            "name": "የጫጉላ ሽርሽር ክፍል ",
+            "image": "hotel_image/single_14.jpg",
+            "description": "ለባልና ሚስት የተዘጋጀ ሮማንቲክ ክፍል፣ ልዩ ውብ ማስዋቢያዎች ያሉት",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 7000,
+            "visible": true
+          },
+          "room_9": {
+            "name": "ቪአይፒ ክፍል",
+            "image": "hotel_image/single_13.jpeg",
+            "description": "ከፍተኛ ደረጃ ያለው የግል ክፍል፣ የቅንጦት አገልግሎቶችና ፕሪሚየም አቅርቦቶች ያሉት",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 10000,
+            "visible": true
+          },
+          "room_10": {
+            "name": "ፕሬዝዳንታዊ ሱዊት",
+            "image": "hotel_image/single_7.jpeg",
+            "description": "ከፍተኛ የቅንጦት ሱዊት፣ ብዙ ክፍሎች፣ መዝናኛ ቦታ እና ልዩ አገልግሎት ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 20000,
+            "visible": true
+          }
+        }
+      },
+      "vip_room": {
+        "room_list": {
+          "types": "ቪአይፒ ክፍል",
+          "vip_room_1 ": {
+            "name": "ሮያል ቪአይፒ ክፍል",
+            "image": "hotel_image/single_13.jpeg",
+            "description": "የንጉስ መጠን አልጋ፣ የግል መቀመጫ ቦታ እና ፕሪሚየም አገልግሎት ያለው የቅንጦት ክፍል",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 12005.0,
+            "visible": true
+          },
+          "vip_room_2": {
+            "name": "ኤግዚኪዩቲቭ ቪአይፒ ክፍል",
+            "image": "hotel_image/single_11.jpeg",
+            "description": "ለቢዝነስ እንግዶች የተዘጋጀ ዘመናዊ ቪአይፒ ክፍል፣ የስራ ቦታ እና ፈጣን Wi-Fi ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 10500,
+            "visible": true
+          },
+          "vip_room_3": {
+            "name": "ፕሬዝዳንታዊ ቪአይፒ ሱዊት",
+            "image": "hotel_image/single_10.jpeg",
+            "description": "የቅንጦት መኝታ ክፍል፣ መቀመጫ ቦታ፣ የምግብ ቦታ እና የከተማ እይታ ያለው ፕሪሚየም ሱዊት",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 25000,
+            "visible": true
+          },
+          "vip_room_4": {
+            "name": "የጫጉላ ሽርሽር ቪአይፒ ክፍል",
+            "image": "hotel_image/single_8.jpeg",
+            "description": "ለባልና ሚስት የተዘጋጀ የቅንጦት ክፍል፣ ልዩ ማስዋቢያ፣ ለስላሳ መብራት እና ጃኩዚ ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 14000,
+            "visible": true
+          },
+          "vip_room_5": {
+            "name": "ፓኖራማ ቪአይፒ ክፍል",
+            "image": "hotel_image/single_6.jpeg",
+            "description": "ትልቅ መስኮቶች እና ውብ የከተማ ወይም የተራራ እይታ ያለው የተዋበ ክፍል",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 13500,
+            "visible": true
+          },
+          "vip_room_6": {
+            "name": "ጎልደን ቪአይፒ ክፍል",
+            "image": "hotel_image/single_5.jpg",
+            "description": "በወርቃማ ዲዛይን የተዘጋጀ የቅንጦት ክፍል፣ ፕሪሚየም ዕቃዎችና የመዝናኛ ሲስተም ያለው",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 15000,
+            "visible": true
+          },
+          "vip_room_7": {
+            "name": "ዳይመንድ ቪአይፒ ሱዊት",
+            "image": "hotel_image/single_3.jpg",
+            "description": "ልዩ አገልግሎቶች፣ ሚኒባር እና የግል መቀመጫ ቦታ ያለው ከፍተኛ ደረጃ ሱዊት",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 18000,
+            "visible": true
+          },
+          "vip_room_8": {
+            "name": "ክላሲክ ቪአይፒ ክፍል ",
+            "image": "hotel_image/single_2.jpeg",
+            "description": "ክላሲክ የውስጥ ዲዛይን እና ምቹ አየር ያለው የቅንጦት ክፍል",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 9500,
+            "visible": true
+          },
+          "vip_room_9": {
+            "name": "የግል መቀመጫ ቪአይፒ ክፍል",
+            "image": "hotel_image/single_1.jpg",
+            "description": "የግል የእንግዳ መቀመጫ ቦታ፣ Smart TV እና ፕሪሚየም የእንግዳ አገልግሎት ያለው ቪአይፒ ክፍል",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 16000,
+            "visible": true
+          },
+          "vip_room_10": {
+            "name": "ኢምፔሪያል ቪአይፒ ሱዊት",
+            "image": "hotel_image/single_le.jpeg",
+            "description": "ብዙ ክፍሎች፣ የግል የምግብ ቦታ እና ልዩ ኤግዚኪዩቲቭ አገልግሎት ያለው ከፍተኛ የቅንጦት ሱዊት",
+            "lang_price": "ዋጋ",
+            "currenc": "ብር",
+            "price": 30000,
+            "visible": true
+          }
+        }
+      },
+      "contact": "ያግኙን\n\nከሚከተሉት አድራሻዎች በኩል ማግኘት ትችላሉ፦\n\n📍 አድራሻ፦ ዲላ፣ ኢትዮጵያ\n\n📱 ስልክ፦ [0951388278]\n\n💬 ቴሌግራም፦ [https://t.me/Minte_contact]\n\n📧 ኢሜይል፦ [mintedigitalservice@gmail.com]\n\n🕒 ሰኞ–ቅዳሜ፦ ጠዋት 2 እስከ ማታ 4 | እሁድ፦ ከረፍዱ 6 እስከ ማታ 2",
+      "about": "እንኳን ወደ ምንቴ ሬስቶራንት በደህና መጡ!\n\nእኛ በቤተሰብ የሚተዳደር ሬስቶራንት ነን። ከአካባቢያችን ገበሬዎች በምናገኛቸው ትኩስ ጥሬ ዕቃዎች የተዘጋጁ በቤት ውስጥ እንደሚሰራ ምግቦች እናቀርባለን።\n\nታሪካችን የጀመረው በ2018 ዓ.ም ነው። ዋና ሼፋችን ማሪያ ባህላዊ የምግብ አዘገጃጀት መነሻዋን በማድረግ ጎረቤቶች ጓደኛ ወደሚሆኑበት ምቹ ቦታ ስትቀይረው ነበር።\n\nልዩ የሚያደርጉን ነገሮች፦\n✅ በየቀኑ ከአካባቢ እርሻዎች የሚገኙ ትኩስ ጥሬ ዕቃዎች\n✅ ለ3 ትውልዶች የተላለፉ የምግብ አዘገጃጀት ዘዴዎች\n✅ ሞቅ ያለ እና ተግባቢ አገልግሎት (ወደ ቤተሰብ ቤት እንደመጣችሁ)\n✅ በየቀኑ ጠዋት ትኩስ እንደሚዘጋጁ በቤት ውስጥ የተሰሩ ጣፋጮች\n\nለፈጣን ቡና፣ ለስራ ምሳ፣ ወይም ለፍቅር እራት ብትመጡ – ለእናንተ ዝግጁ የሆነ ጠረጴዛ አለን።\n\nበቤት ውስጥ እንደተዘጋጀ ምግብ ልዩነቱን ለመቅመስ ይምጡ።\n📍 ዲላ፣ ኢትዮጵያ\n📞 (0951388278)\n🕒 ሰኞ–ቅዳሜ፦ ጠዋት 2 እስከ ማታ 4 | እሁድ፦ ከረፍዱ 6 እስከ ማታ 2"
+    }
+  }
+}
